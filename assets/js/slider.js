@@ -6,10 +6,11 @@
 // SCSS SLIDER !!!!!!!!!!!!!!
 
 
-let swiper = new Swiper('.seven__slider', {
+
+new Swiper('.имя блока__slider', {
 	// direction: 'vertical',
-    loop: true,
-	simulateTouch: false,
+    // loop: true,
+	simulateTouch: true,
 
 	navigation: {
 		// <div class="swiper-button-prev"></div>
@@ -23,10 +24,10 @@ let swiper = new Swiper('.seven__slider', {
 		// <div class="swiper-pagination"></div>
 
 		// точки
-		type: 'bullets',
+		// type: 'bullets',
 		
 		// цифры
-		// type: 'fraction',
+		type: 'fraction',
 		renderFraction: function (currentClass, totalClass) {
 			return '0<span class="' + currentClass + '"></span>'+
 			'/' +
@@ -47,9 +48,9 @@ let swiper = new Swiper('.seven__slider', {
 	},
 
 	// кол-во слайдов
-	slidesPerView: 1,
+	slidesPerView: 1.1,
 	// отступы
-	spaceBetween: 200,
+	spaceBetween: 0,
 
 	// breakpoints: {
 	// 	320: {
