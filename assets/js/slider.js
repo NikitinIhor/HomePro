@@ -7,9 +7,9 @@
 
 
 
-new Swiper('.имя блока__slider', {
+new Swiper('.six__slider', {
 	// direction: 'vertical',
-    // loop: true,
+    loop: true,
 	simulateTouch: true,
 
 	navigation: {
@@ -24,10 +24,10 @@ new Swiper('.имя блока__slider', {
 		// <div class="swiper-pagination"></div>
 
 		// точки
-		// type: 'bullets',
+		type: 'bullets',
 		
 		// цифры
-		type: 'fraction',
+		// type: 'fraction',
 		renderFraction: function (currentClass, totalClass) {
 			return '0<span class="' + currentClass + '"></span>'+
 			'/' +
@@ -48,9 +48,9 @@ new Swiper('.имя блока__slider', {
 	},
 
 	// кол-во слайдов
-	slidesPerView: 1.1,
+	slidesPerView: 1,
 	// отступы
-	spaceBetween: 0,
+	spaceBetween: 40,
 
 	// breakpoints: {
 	// 	320: {
