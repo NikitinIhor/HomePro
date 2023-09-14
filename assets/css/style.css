@@ -1336,6 +1336,16 @@ h6 {
     }
 }
 
+@media (max-width: 840px) {
+    .two__text {
+        font-size: 1rem;
+    }
+}
+
+.bl0ck__text {
+    padding: 0 0.9375rem;
+}
+
 @media (min-width: 93.75em) {
     .two__title {
         margin-bottom: 2.5rem;
@@ -2769,6 +2779,12 @@ h6 {
     display: grid;
     gap: 2.5rem;
     grid-template-columns: repeat(auto-fill, minmax(22.5rem, 1fr));
+}
+
+@media (max-width: 400px) {
+    .seven__items {
+        grid-template-columns: repeat(auto-fill, minmax(18.75rem, 1fr));
+    }
 }
 
 .seven__item {
